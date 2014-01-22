@@ -1,7 +1,7 @@
 <?php
 	App::uses('AppHelper', 'View/Helper');
 	class MrgGoogleMapHelper extends AppHelper{
-		var $helpers = ['Js'=>['MrgGoogleMap.MrgGoogleMapJquery'], 'Html'];
+		var $helpers = ['Js', 'Html'];
 		public function __construct(View $view, $settings = array()) {
 			parent::__construct($view, $settings);
 			// Load the google maps plugin
