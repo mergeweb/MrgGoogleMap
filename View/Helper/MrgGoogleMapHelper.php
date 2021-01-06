@@ -6,7 +6,7 @@
 			parent::__construct($view, $settings);
 			// Load the google maps plugin
 			echo
-				$this->Html->script('http://maps.google.com/maps/api/js?key=' . $settings['key'] . '&sensor=false&amp;language=en', array('inline'=>false)).
+				$this->Html->script('https://maps.google.com/maps/api/js?key=' . $settings['key'] . '&sensor=false&amp;language=en', array('inline'=>false)).
 				$this->Html->script('jquery.plugins/gmap3.js', array('inline'=>false));
 		}
 
